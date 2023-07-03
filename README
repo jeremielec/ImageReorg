@@ -1,0 +1,17 @@
+Very single picture reorganisator.
+
+
+Edit appsettings with :
+
+	=> SourceFiles : directory where picture are messy stored 
+	=> TargetPath : Directory where picture should be store as :
+		 YYYY \ MM \ Image
+
+At first try, check about Exif metadta. Then try to parse filename to get date at format : YYYYMMDD or DDMMYYYY.
+
+Need .net sdk 6.0 to build / run.
+
+https://dotnet.microsoft.com/en-us/download/visual-studio-sdks
+
+
+To lauch : dotnet run when inside project folder :p 
